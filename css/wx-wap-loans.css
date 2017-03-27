@@ -1,0 +1,346 @@
+﻿.sx-bd{
+  background-color: #efeff4!important;
+}
+.loans-box p{
+  text-align: center;
+  position: absolute;
+  left:0;
+  width: 100%;
+}
+.loans-box .p0{
+  height: 40%;
+  overflow:hidden;
+  background-color: #28272c;
+}
+.loans-box .p0 img{
+  display: block;
+  max-width: 100%;
+  margin:0 auto;
+  height: 100%;
+}
+.loans-box .p1{
+  color:#ccc;
+  font-size:0.7rem;
+  top:45%;
+}
+.loans-box .p2{
+  color:#ccc;
+  font-size:0.7rem;
+  top:55%;
+  left:10px;
+  right:10px;
+  width: auto;
+}
+.loans-box .p2 .btn{
+  font-size:0.8rem;
+  padding:0.3rem 0;
+  height: auto;
+}
+.loans-box .p3{
+  color:#333;
+  font-size:0.7rem;
+  top:75%;
+}
+.loans-box .p4{
+  top:90%;
+  text-align: left;
+}
+.loans-box .p4 img{
+  height: 40px;
+  margin-left:38%;
+}
+
+
+
+.sx-show {
+  background-color: #fff;
+  margin-top:0.5rem;
+  border: 1px solid #d0d0d4;
+  display: block;
+  overflow:hidden;
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  border-radius:0.1rem;
+}
+.sx-show .hd{
+  padding:0;
+  color:#2f2f2f;
+  margin:0 auto;
+  border-bottom: 1px solid #dbdbdb;
+  padding:0.8rem 0;
+  display: table;
+  width: 100%;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+}
+.sx-show .hd .cell{
+  color:#222;
+  font-size:0.8rem;
+  font-weight: normal;
+  vertical-align:middle;
+  text-align: left;
+  display: table-cell;
+  padding:0;
+  margin:0;
+  font-family:HelveticaNeue Light,"微软雅黑",Arial,Helvetica,sans-serif;
+}
+.sx-show .hd b{
+  font-weight: normal;
+  font-size:1.2rem;
+}
+.sx-show .hd .cell:first-of-type{
+  font-size:0.74rem;
+}
+.sx-show .hd .cell:last-of-type{
+  font-size:1.2rem;
+  text-align: right;
+  padding-right:0;
+  font-weight: normal;
+}
+.sx-show .hd .cell.l strong{
+  font-weight: bold;
+  font-size:0.8rem;
+  display: block;
+}
+.sx-show .hd .cell.l span{
+  font-size:0.5rem;
+  color:#aaa;
+}
+.sx-show .bd{
+  padding:1rem 0;
+  font-size:0.9rem;
+  margin:0 auto;
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+}
+.sx-show .bd .title{
+  padding:0;
+  margin:0;
+  color:#555;
+  font-size:0.66rem;
+}
+
+.sx-show .bd .title{
+  color:#aaa;
+  display: table;
+  width: 100%;
+  margin-bottom:.3rem;
+}
+.sx-show .bd .content{
+  color:#222;
+  display: table;
+  width: 100%;
+  font-size:1.2rem;
+}
+.sx-show .bd .content span:last-of-type{
+  color:#009900;
+}
+.sx-show .bd>div span{
+  display: table-cell;
+  width: 49.9999%;
+  text-align: center;
+
+}
+.sx-show .ft{
+  text-align: right;
+  padding:0.74rem 0.5rem;
+  font-size:0.68rem;
+  font-weight: 500;
+  color:#555;
+  width: 100%;
+  font-family:"微软雅黑",Arial,Helvetica,sans-serif;
+}
+.sx-show .ft .l{
+  display: block;
+  float: left;
+  color:#aaa;
+}
+.sx-show .ft span{
+  font-weight: 500;
+  font-family:"微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+
+
+
+.sx-form {
+  background-color: #fff;
+  border-top: 1px solid #d0d0d4;
+  border-bottom: 1px solid #d0d0d4;
+  overflow:hidden;
+  margin-bottom:1rem;
+}
+.sx-form .hd{
+  padding:0;
+  color:#2f2f2f;
+  margin:0 auto;
+  display: table;
+  width: 100%;
+  padding-left:0.5rem;
+}
+.sx-form .hd .cell{
+  color:#222;
+  font-size:0.8rem;
+  font-weight: normal;
+  vertical-align:middle;
+  text-align: left;
+  display: table-cell;
+  padding: 0.8rem 0;
+  margin:0;
+}
+.sx-form .hd b{
+  font-weight: normal;
+  font-size:1.2rem;
+}
+.sx-form .hd .cell:first-of-type{
+  font-size:0.74rem;
+  border-bottom: 1px solid #dbdbdb;
+}
+.sx-form .hd .cell:last-of-type{
+  font-size:1.2rem;
+  text-align: right;
+  padding-right:0;
+  font-weight: normal;
+  border-bottom: 1px solid #dbdbdb;
+}
+.sx-form .hd .cell.l strong{
+  font-weight: bold;
+  font-size:1rem;
+}
+.sx-form .hd .cell.l b{
+  font-weight: bold;
+  font-size:0.85rem;
+}
+.sx-form .hd .cell.l span{
+  font-size:0.75rem;
+  color:#555;
+  display: block;
+  margin-bottom:0.1rem;
+}
+.sx-form .hd .btn-mark{
+  float: right;
+  font-size:0.85rem;
+  background-color: #05ce63 ;
+  color:#fff;
+  padding:0.45em 0.55em;
+  vertical-align:middle;
+  position: relative;
+  cursor:default;
+}
+.sx-form .hd .btn-mark .bg,
+.sx-form .hd .btn-mark:active .bg{
+  display: block;
+  position: absolute;
+  top:0;
+  left:-4px;
+  height: 100%;
+  width: 4px;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.sx-form .hd .btn-wait{
+  background-color: #05ce63 ;
+}
+.sx-form .hd .btn-wait .bg{
+  background: url(../images/btn-wait.png) left center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.sx-form .hd .btn-complete{
+  background-color: #b0bec5 ;
+}
+.sx-form .hd .btn-complete .bg{
+  background: url(../images/btn-complete.png) left center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.sx-form .hd .btn-wait:active .bg{
+  background:url(../images/btn-wait-active.png) left center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+
+
+.sx-form .bd{
+  padding:0.6rem 0;
+  font-size:1.4rem;
+  margin-left:0.5rem;
+  border-bottom: 1px solid #dbdbdb;
+}
+.sx-form .bd p{
+  line-height: 2rem;
+  margin:0;
+  color:#666;
+  font-size:0.85rem;
+  padding-right:0.5rem;
+}
+.sx-form .bd.bd-1 p{
+  display: table;
+  width: 100%;
+}
+.sx-form .bd.bd-1 p .l{
+  display: table-cell;
+  text-align: left;
+  padding-left:1rem;
+}
+.sx-form .bd.bd-1 p .r{
+  display: table-cell;
+  text-align: right;
+  padding-right:1rem;
+}
+.sx-form .ft{
+  text-align: right;
+  padding:0.8rem 0.5rem;
+  font-size:0.85rem;
+  color:#222;
+}
+.sx-form .sx-link,
+.sx-form .sx-link:visited{
+  display: block;
+  text-align: left;
+  color:#555;
+  position: relative;
+  font-size:0.85rem;
+}
+.sx-form .sx-link:active{
+  color:#4D78E7;
+}
+.sx-form .sx-link:after{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-top: -0.3rem;
+  color: #bdbdbd;
+  content: '';
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+};
+.sx-form .sx-link:active:after{
+  border-color:#4D78E7!important;
+  color: #4D78E7!important;
+}
+.sx-form-information{
+  font-size: 0.75rem;
+  padding: 0 0.5rem 0.5rem;
+  color: #6f6f6f;
+  line-height: 2;
+  font-weight: bold;
+}  
+.sx-form-information strong{
+  color:#e1261c;
+}
+.sx-form-1 .hd .cell.l strong{
+  font-weight: bold;
+  font-size:0.85rem;
+}
+.sx-form-1 .bd p{
+  line-height: 1.7;
+}

@@ -1,0 +1,341 @@
+﻿.sx-header .hd strong{
+  position: absolute;
+  left:0.2rem;
+  top:0;
+  z-index:1;
+  display: inline-block;
+  width:30%;
+  height: 2.5rem;
+  cursor:default;
+  border-bottom: 3px solid #8392b4;
+}
+.sx-header .hd span{
+  display: inline-block;
+  position: relative;
+  z-index:10;
+  height: 2.5rem;
+  color:#949396;
+  font-weight: normal;
+  font-size:0.85rem;
+  padding:0 0.2rem;
+  width:30%;
+  cursor:default;
+}
+.sx-header .hd span.current{
+  color:#8392b4;
+  /*border-bottom: 3px solid #8392b4;*/
+}
+
+.sx-bd .page{
+	display: none;
+}
+.sx-bd .page:first-of-type{
+	display: block;
+}
+.contact{ 
+	overflow:hidden;
+	position: absolute;
+	top:2.3rem;
+	bottom:0;
+    width: 100%;
+}
+
+.sx-searchbar-wrap {
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  background-color: #f8f9fa; 
+}
+.sx-searchbar-wrap button {
+    margin-right: 0.5rem; 
+}
+.sx-searchbar-wrap .sx-searchbar-cancel {
+    color: #808080;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem; 
+}
+.sx-searchbar-wrap .sx-searchbar-input, 
+.sx-searchbar-wrap button, 
+.sx-searchbar-wrap .sx-icon-close {
+    display: none; 
+}
+.sx-searchbar-wrap.focus {
+    -webkit-box-pack: start; 
+}
+.sx-searchbar-wrap.focus .sx-searchbar-input,
+.sx-searchbar-wrap.focus button,
+.sx-searchbar-wrap.focus .sx-icon-close {
+    display: block;
+}
+.sx-searchbar-wrap.focus .sx-searchbar-text {
+    display: none;
+}
+
+.sx-searchbar {
+  border-radius: 0.2rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  margin: 0.4rem 0.5rem;
+  background: #fff;
+  font-size: 0.7rem;
+
+  position: relative;
+  padding-left: 0.2rem;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  color: #808080;
+  width: 100%; 
+}
+.sx-searchbar .sx-searchbar-text{
+	font-size:0.7rem;
+}
+.sx-searchbar .sx-icon-search{
+  height: 0.7rem!important;
+  width: 0.7rem!important;
+  margin:0 0.2rem;
+}
+.sx-searchbar input {
+    -webkit-appearance: none;
+    font-size: 0.7rem;
+    color: #000;
+    border: none;
+    padding: 0.3rem 0;
+}
+
+.sx-searchbar-input {
+  -webkit-box-flex: 1;
+}
+
+.sx-list .divider{
+  padding:0 0.5rem;	
+  background-color: #f1f1f1;
+  padding:0.2rem 0.5rem;
+}
+.sx-list .sx-l-item{
+  width: 100%;
+  display: table;
+  padding:0 1.2rem 0 0.5rem;
+}
+.sx-list .sx-l-item:active{
+	background-color: #f8f8f8;
+}
+.sx-list .sx-l-item .cell{
+  color:#222;
+  font-size:0.8rem;
+  font-weight: normal;
+  vertical-align:middle;
+  text-align: left;
+  display: table-cell;
+  padding:1rem 0;
+  margin:0;
+  font-family:HelveticaNeue Light,"微软雅黑",Arial,Helvetica,sans-serif;
+}
+.sx-list .sx-l-item b{
+  font-weight: normal;
+  font-size:1.2rem;
+}
+.sx-list .sx-l-item .cell:first-of-type{
+  font-size:0.74rem;
+  border-bottom: 1px solid #dbdbdb;
+}
+.sx-list .sx-l-item .cell:last-of-type{
+  font-size:0.8rem;
+  text-align: right;
+  padding-right:0;
+  font-weight: normal;
+  color:#aaa;
+  border-bottom: 1px solid #dbdbdb;
+}
+.sx-list .sx-l-item:last-of-type .cell{
+  border-bottom: none!important;
+}
+.sx-list .sx-l-item .cell.l strong{
+  font-weight: normal;
+  font-size:1rem;
+  display: block;
+  padding:0.2rem 0;
+}
+.sx-list .sx-l-item .cell.l span{
+  font-size:0.7rem;
+  color:#aaa;
+}
+
+.sider-box{
+	position: fixed;
+	right:0;
+	top:5rem;
+	width: 0.8rem;
+}
+.sider-box a{
+	display: block;
+	font-size: 0.5rem;
+	color:#4D78E7;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.info-box{
+    padding:0.5rem 0;
+    margin:0 0.5rem;
+    font-size:0.7rem;
+    color:#d88888;
+    overflow:hidden;
+    white-space:nowrap;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+}
+
+.list-view{
+	overflow: hidden;
+	position: absolute;
+	top: 2rem;
+	bottom: 0;
+	width: 100%;
+}
+.list-view .divider{
+	padding: 0 0.5rem;
+	background-color: #e9eaec;
+	padding: 0.25rem 0.5rem;	
+	margin-top:-1px;
+  display: table;
+  width: 100%;
+}
+.list-view .list{
+	padding:1.25rem 0;
+	border-bottom: 1px solid #dbdbdb;
+	margin:0 0.5rem;
+	font-size:0.8rem;
+}
+.list-view .l{
+	display: table-cell;
+	vertical-align:middle;
+}
+.list-view .r{
+	display: table-cell;
+	color:#e1261c;
+	font-size:0.6rem;
+	padding-left:0.5rem;
+	vertical-align:middle;
+  text-align: right;
+}
+.list-view .r{
+  display: table-cell;
+  color:#222222;
+  font-size:0.6rem;
+  padding-left:0.5rem;
+  vertical-align:middle;
+  text-align: right
+}
+.list-view .r.danger{
+  color:#e1261c;
+}
+
+.sx-tab-hd{
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  z-index:10;
+  height: 2.4rem;
+  background-color: #f9f9fa;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+.sx-tab-hd li,
+.sx-tab-hd li:visited{
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size:0.7rem;
+  border-right: 1px solid #e8e8e8;
+  cursor:default;
+}
+.sx-tab-hd li:active{
+  background-color: #fff;
+}
+.sx-list-hd{
+  position: absolute;
+  left:0;
+  right:0;
+  top:2.38rem;
+  z-index:11;
+  height: 1.5rem;
+  background-color: #f9f9fa;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+.sx-list-hd span{
+  color:#aaa;
+  font-size:0.6rem;
+  display: table-cell;
+  vertical-align: middle;
+  padding:0 0.5rem;
+}
+.sx-list-hd span.c-1{
+  width: 3rem;
+  text-align: center;
+}
+.sx-list-hd span.c-2{
+  width: 6rem;
+  text-align: left;
+}
+.sx-list-hd span.c-3{
+  text-align: right;
+}
+
+.sx-tab-c{
+  position: absolute;
+  left:0;
+  right:0;
+  top:3.9rem;
+  bottom:0;
+  display: none;
+  z-index:1;
+  overflow:hidden;
+}
+.sx-tab-c:first-of-type{
+  display: block;
+}
+.sx-tab-bd li,
+.sx-tab-bd li:visited{
+  margin: 0;
+  font-size: 0.8rem;
+  display: table;
+  width: 100%;
+  background-color: #fff;
+}
+.sx-tab-bd li:active{
+  background-color: #f9f9fa!important;
+}
+.sx-tab-bd li span{
+  display: table-cell;
+  height: 3.5rem;
+  vertical-align:middle;
+}
+.sx-tab-bd li span:first-of-type {
+  width: 3rem;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.sx-tab-bd li span:nth-of-type(2) {
+  padding: 0 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #dedde0;
+}
+.sx-tab-bd li span:last-of-type {
+  padding: 0 0.5rem;
+  text-align: right;
+  border-bottom: 1px solid #dedde0;
+}
+.sx-tab-bd li span b{
+  color:#aaa;
+  font-weight: normal;
+}

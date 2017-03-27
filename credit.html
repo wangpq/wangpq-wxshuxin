@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <title>熟信</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1.5, user-scalable=yes">
+  <link rel="stylesheet" href="css/wx-wap-public.css">
+  <link rel="stylesheet" href="css/wx-wap-media.css">
+  <link rel="stylesheet" href="css/wx-wap-credit.css">
+  <script src="js/zepto.js"></script>
+  <script src="js/frilend.js"></script>
+  <script src="js/wx-wap-credit.js"></script>
+
+</head>
+<body>
+<header class="sx-header">
+  <div class="hd">
+    <span class="current">联系人</span>
+    <span>已授信</span>
+    <span>排行榜</span>
+    <strong></strong>
+  </div>
+</header>
+
+<article class="sx-bd">
+  
+  <!--联系人页面-->
+  <div class="page">
+    <!--搜索框-->
+    <div class="sx-searchbar-wrap">
+      <div class="sx-searchbar">
+        <i class="sx-icon-search"></i>
+        <div class="sx-searchbar-text">搜索</div>
+        <div class="sx-searchbar-input"><input value="" type="tel" placeholder="搜索联系人" autocapitalize="off"></div>
+        <i class="sx-icon-close"></i>
+      </div>
+      <button class="sx-searchbar-cancel">取消</button>
+    </div>
+        
+    <div class="contact">
+      <div class="wrap">
+
+        <dl class="sx-list">
+          <dt class="divider" id="A">A</dt>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>Amanda</strong>
+              <span>被3人授信</span>
+            </div>
+            <div class="cell r">3000元</div>
+          </dd>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>安琪</strong>
+              <span>被0人授信</span>
+            </div>
+            <div class="cell r">未授信</div>
+          </dd>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>安琪</strong>
+              <span>被0人授信</span>
+            </div>
+            <div class="cell r">未授信</div>
+          </dd>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>安琪</strong>
+              <span>被0人授信</span>
+            </div>
+            <div class="cell r">未授信</div>
+          </dd>
+        </dl>
+        <dl class="sx-list">
+          <dt class="divider" id="B">B</dt>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>白起</strong>
+              <span>被23人授信</span>
+            </div>
+            <div class="cell r">3000元</div>
+          </dd>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>百盛</strong>
+              <span>被13人授信</span>
+            </div>
+            <div class="cell r">5000元</div>
+          </dd>
+
+        </dl>
+
+
+        <dl class="sx-list">
+          <dt class="divider" id="T">T</dt>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>佟胜</strong>
+              <span>被10人授信</span>
+            </div>
+            <div class="cell r">3000元</div>
+          </dd>
+        </dl>
+
+
+        <dl class="sx-list">
+          <dt class="divider" id="G">G</dt>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>郭双双</strong>
+              <span>被12人授信</span>
+            </div>
+            <div class="cell r">3000元</div>
+          </dd>
+          <dd class="sx-l-item">
+            <div class="cell l">
+              <strong>郭美美</strong>
+              <span>被22人授信</span>
+            </div>
+            <div class="cell r">9000元</div>
+          </dd>
+        </dl>
+
+      </div>
+    </div>
+    <!--右侧导航栏-->
+    <menu class="sider-box"></menu>
+  </div>
+
+  <!--已授信页面-->
+  <div class="page">
+    <!--
+    <div class="md-help">
+     <p>
+       <img src="images/icon-credit-no.png" alt="fail">
+     </p>
+     <p class="text">你还没有对任何人授信</p>
+    </div>
+   -->
+    <div class="info-box">
+      联系人姓名与身份证一致，你才能接收到借款申请。
+    </div>
+    <div class="list-view">
+      <ul class="wrap">
+        <li class="divider">
+          <div class="l">
+            <strong>3000</strong>元
+          </div>
+          <span class="r">5人</span>
+        </li>
+        <li class="list">艾艾</li>
+        <li class="list">安以轩</li>
+        <li class="list">安琪</li>
+        <li class="list">艾艾</li>
+
+        <li class="divider">
+          <div class="l">
+            <strong>10000</strong>元
+          </div>
+          <span class="r danger">不足5人，无法接收此档借贷申请</span>
+        </li>
+        <li class="list">艾艾</li>
+        <li class="list">安以轩</li>
+        <li class="list">安琪</li>
+        <li class="list">艾艾</li>
+
+        <li class="divider">3000元</li>
+        <li class="list">艾艾</li>
+        <li class="list">安以轩</li>
+        <li class="list">安琪</li>
+        <li class="list">艾艾</li>
+      </ul>
+    </div>
+
+
+
+
+  </div>
+
+  <!--排行榜页面-->
+  <div class="page">
+    <!--
+    <div class="md-help">
+     <p>
+       <img src="images/icon-rank-no.png" alt="fail">
+     </p>
+     <p class="text">还没有对任何人在排行榜中</p>
+    </div>
+  -->
+
+    <ul class="sx-tab-hd">
+      <li>
+        <i class="sx-icon-ascent"></i>
+        <span class="text">一周上升榜</span>
+      </li>
+      <li>
+        <i class="sx-icon-descend"></i>
+        <span class="text">一周下降榜</span>
+      </li>
+    </ul>
+    <div class="sx-list-hd">
+      <span class="cell c-1">排名</span>
+      <span class="cell c-2">联系人</span>
+      <span class="cell c-3">总额度</span> 
+    </div>
+    <div class="sx-tab-bd">
+      <div class="sx-tab-c" id="sx-tab-c-1">
+        <div class="wrap">
+          <ul class="sx-list-ph">
+            <li>
+              <span>235</span>
+              <span>我</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>1</span>
+              <span>安吉星</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>2</span>
+              <span>安琪</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>3</span>
+              <span>阿曼达</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>4</span>
+              <span>宝马</span>
+              <span>10000<b>元</b></span>
+            </li> 
+          </ul>
+        </div>
+      </div>
+
+      <div class="sx-tab-c" id="sx-tab-c-2">
+        <div class="wrap">
+          <ul class="sx-list-ph">
+            <li>
+              <span>235</span>
+              <span>我</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>1</span>
+              <span>安好</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>2</span>
+              <span>安琪琪</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>3</span>
+              <span>阿曼</span>
+              <span>10000<b>元</b></span>
+            </li>
+            <li>
+              <span>4</span>
+              <span>宝马4S</span>
+              <span>10000<b>元</b></span>
+            </li> 
+          </ul>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</article>
+
+<footer class="sx-footer">
+  <menu>
+    <a href="index.html">
+      <i class="sx-icon sx-icon-home"></i>
+      <span>熟信</span>
+    </a>
+    <a href="credit.html" class="current">
+      <i class="sx-icon sx-icon-credit"></i>
+      <span>授信</span>
+    </a>
+    <a href="loans.html">
+      <i class="sx-icon sx-icon-loans"></i>
+      <span>借贷</span>
+    </a>
+    <a href="notice.html">
+      <i class="sx-icon sx-icon-notice"></i>
+      <span>通知</span>
+    </a>
+  </menu>
+</footer>
+
+
+</body>
+</html>

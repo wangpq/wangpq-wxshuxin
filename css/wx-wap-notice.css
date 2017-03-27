@@ -1,0 +1,16 @@
+﻿/* 列表 media 展示 */
+.media{padding:0 8px;}
+.media,.media-body {overflow: hidden;zoom: 1;color:#484848;}
+.media,.media .media {margin-top: 8px;border-top:1px solid #ccc;padding-top:8px;}
+.media:first-of-type,.media .media:first-of-type{border-top:none;} 
+.media:first-child {margin-top: 0;}
+.media-object {display: block;}
+.media .media-heading {margin: 0 0 5px;font-weight:normal;font-size:0.8rem;}
+.media .media-heading:before,.media-heading:after{content:"";display:table;height:0;}
+.media .media .media-heading:after{clear:both;}
+.media .media-heading span{float:right;font-weight:normal;font-size:14px;color:#666;}
+.media p{ color:#aaa;font-size:0.6rem;}
+.media > .pull-left {margin-right: 8px;float: left;}
+.media > .pull-right {margin-left: 4px;float: right;}
+.media-list {padding-left: 0;list-style: none;}
+.media>a>img{width: 2.4rem; height: 2.4rem;border-radius:2px;}
